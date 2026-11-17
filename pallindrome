@@ -1,0 +1,37 @@
+package hii;
+
+public class square {
+
+	public static void main(String[] args) {
+		//Palindrome
+		int a=121;
+		int b=0;
+		int t=a;
+		int d;
+		while (t>0)
+		{
+			d=t%10;
+			b=(b*10)+d;
+			t=t/10;
+		}
+		System.out.println("b:"+b);
+		{
+			if(b==a)
+			{
+				System.out.println("Palindrome");
+			}
+			else
+			{
+				System.out.println("Not a palindrome");
+			}
+			}
+	}
+
+	}
+
+
+		
+	
+
+	
+
