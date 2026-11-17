@@ -1,0 +1,31 @@
+package hii;
+
+public class square {
+
+	public static void main(String[] args) {
+	//	add even and odd nos separately
+		int a=0;
+		int even=0;
+		int odd=0;
+	while (a<=10) 
+	{
+			if(a%2==0)
+			{
+				even++;
+			}
+			else
+			{
+			odd++;
+			}
+			a++;
+	}
+		System.out.println("Even="+even);
+		System.out.println("Odd="+odd);
+	}
+}
+
+		
+	
+
+	
+
