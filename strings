@@ -1,0 +1,25 @@
+package hii;
+
+public class square {
+
+	public static void main(String[] args) {
+		//string pattern
+		String str="JAVA";
+		for (int i=1; i<=4;i++) {
+			for (int j=0;j<i; j++) {
+				System.out.println(str.charAt(j)+"");
+				
+					
+				System.out.println();
+				}
+				
+				
+			}
+		}
+	}
+		
+		
+	
+
+	
+
